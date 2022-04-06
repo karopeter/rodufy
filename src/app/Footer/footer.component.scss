@@ -1,0 +1,75 @@
+$color-primary-purple: #301446;
+$color-pink: rgba(163, 57, 255, 0.16);
+$color-white: #FFFFFF;
+
+.footer-main-div {
+  background: $color-primary-purple;
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  background-position: cover;
+  padding: 2rem 0rem;
+}
+
+.highlight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60%;
+  z-index: 1;
+  width: 100%;
+  padding: 0 80px;
+  max-width: 1400px;
+}
+
+.logo {
+  &__checkbox {
+    display: none;
+  }
+
+  &__button {
+    background-color: $color-white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    z-index: 2000;
+    box-shadow: 0 1rem 3rem rgba($color-pink, .1);
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+  }
+
+  &__text {
+    font-size: 2rem;
+    margin-left: 1rem;
+    font-weight: 100;
+    color: $color-primary-purple;
+  }
+
+  &__span {
+    margin-left: 2rem;
+    color: $color-white;
+    font-size: 1rem;
+    font-family: 'Chalkboard SE';
+    font-weight: 300;
+  }
+}
+
+.universal {
+  list-style: none;
+
+   &__fragrance {
+     display: inline-block;
+     margin-top: 7rem;
+     padding: 1rem 2rem;
+     margin-left: 7rem;
+   }
+
+   &__policy {
+     color: $color-white;
+     text-decoration: none;
+     font-family: 'Chalkboard SE';
+     font-weight: 400;
+     font-size: 1.5rem;
+   }
+}

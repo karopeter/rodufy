@@ -1,0 +1,41 @@
+$color-light-green: #29A71A;
+$color-light-gray: #707170;
+$color-dark: #000000;
+
+.divine {
+  background: #F4F4F4;
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  background-position: cover;
+  padding: 2rem 0rem;
+}
+
+
+.white-drama {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.curated-zone {
+  margin-top: 2rem;
+  color: $color-dark;
+  font-size: 1.5em;
+  font-family: 'Chalkboard SE';
+}
+
+.whatsapp {
+   background: $color-light-green;
+}
+
+.message {
+  background: $color-light-gray;
+}
+
+.number {
+  color: $color-dark;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-left: 2rem;
+  font-family: 'Chalkboard SE';
+}

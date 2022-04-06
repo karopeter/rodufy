@@ -1,0 +1,34 @@
+$color-dark: #000000;
+$color-white: #FFFFFF;
+$color-secondary-blen: #EA7052;
+$color-hsl-secondary: hsl(12, 78%, 62%);
+
+.heading-bomb {
+  margin-top: 2rem;
+  color: $color-dark;
+  text-align: left;
+  font-size: 3rem;
+  font-family: 'Chalkboard SE';
+  font-weight: 700;
+}
+
+.curated-zone {
+  margin-top: 2rem;
+  color: $color-dark;
+  font-size: 1.5em;
+  font-family: 'Chalkboard SE';
+}
+
+
+.demi {
+  color: $color-secondary-blen;
+  font-size: 1.5rem;
+}
+
+.frame-btn {
+  font-size: 2rem;
+  color: $color-white;
+  font-family: 'Chalkboard SE';
+  margin-top: 2rem;
+  background: $color-secondary-blen;
+}

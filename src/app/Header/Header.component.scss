@@ -1,0 +1,177 @@
+$color-pink: rgba(163, 57, 255, 0.16);
+$color-primary-purple: #301446;
+$color-hsl-secondary: hsl(12, 78%, 62%);
+$color-white: #FFFFFF;
+
+
+.header {
+  background: $color-primary-purple;
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  background-position: cover;
+  padding: 2rem 0rem;
+  margin-top: 3rem;
+}
+
+.nav {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.highlight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60%;
+  z-index: 1;
+  width: 100%;
+  padding: 0 80px;
+  max-width: 1400px;
+}
+
+
+.logo {
+  &__checkbox {
+    display: none;
+  }
+
+  &__button {
+    background-color: $color-white;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    z-index: 2000;
+    box-shadow: 0 1rem 3rem rgba($color-pink, .1);
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+  }
+
+  &__text {
+    font-size: 2rem;
+    margin-left: 1rem;
+    font-weight: 100;
+    color: $color-primary-purple;
+  }
+
+  &__span {
+    margin-left: 2rem;
+    color: $color-white;
+    font-size: 1rem;
+    font-family: 'Chalkboard SE';
+    font-weight: 300;
+  }
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  list-style: none;
+  height: fit-content;
+}
+
+
+.field {
+   width: 190px;
+   height: 81px;
+   left: 826px;
+   top: 20px;
+   font-size: 2rem;
+   color: $color-white;
+   font-family: 'Chalkboard SE';
+   background: $color-hsl-secondary;
+   border-radius: 16px;
+}
+
+.clossal {
+  width: 190px;
+  height: 81px;
+  margin-left: 2rem;
+  top: 13px;
+  border-radius: 5px solid $color-hsl-secondary;
+  font-size: 1.2rem;
+  font-family: 'Chalkboard SE';
+  color: $color-white;
+}
+
+.mission {
+  margin-top: 7rem;
+  color: $color-white;
+  font-family: 'Chalkboard SE';
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.rodufy {
+  width: 80%;
+  height: 80%;
+  margin-top: 4rem;
+  border-radius: 20px;
+  position: relative;
+}
+
+.humanity {
+  color: $color-hsl-secondary;
+  font-family: 'Chalkboard SE';
+}
+
+.machines {
+  margin-top: 1rem;
+  color: $color-white;
+  font-size: 1.2rem;
+  font-family: 'Chalkboard SE';
+}
+
+.traveller {
+  display: flex;
+  list-style: none;
+  justify-content: left;
+}
+
+.trenches {
+  color: $color-white;
+  list-style: none;
+  width: 15%;
+  height: 15%;
+}
+
+.iconbox {
+    border-radius: 16px;
+    position: relative;
+    width: 10%;
+    margin-right: 16px;
+    padding: 10px;
+    background: #FFFFFF;
+    height: 10%;
+    transition: all .2s ease-in-out;
+}
+
+.app__image {
+  width: 20%;
+  margin-left: 2rem;
+  height: 20%;
+}
+
+.demi {
+  color: $color-white;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+
+.excel {
+    background: $color-white;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    background-position: cover;
+    padding: 2rem 0rem;
+  }
