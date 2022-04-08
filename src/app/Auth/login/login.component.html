@@ -18,7 +18,7 @@
  <main class="pluto">
    <div class="discover">
      <h1 class="main">Login</h1>
-     <form>
+     <form #authForm="ngForm">
        <div class="link__details form-group">
         <div class="clap__move">
           <input name="email" type="email" class="clap__input" placeholder="Email" required/>
@@ -27,7 +27,7 @@
           <input name="password" type="password" class="clap__input" placeholder="Password" required />
         </div>
        </div>
-       <button class="btn frame-btn">Login</button>
+       <button class="btn frame-btn" (click)="onLoginUser(authForm)">Login</button>
      </form>
    </div>
  </main>

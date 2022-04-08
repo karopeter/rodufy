@@ -11,6 +11,7 @@ import { ContactComponent } from './Contact/contact.component';
 import { FooterComponent } from './Footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { LoginComponent } from './Auth/login/login.component';
+import { FundingComponent } from './funding/funding.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LoginComponent } from './Auth/login/login.component';
     ExcelComponent,
     ContactComponent,
     FooterComponent,
-    LoginComponent 
+    LoginComponent,
+    FundingComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +33,8 @@ import { LoginComponent } from './Auth/login/login.component';
       { path: '', redirectTo: '/home', pathMatch: 'full'},
       { path: 'home', component: HeaderComponent },
       { path: 'signup', component: SignupComponent },
-      { path: 'login', component: LoginComponent }
+      { path: 'login', component: LoginComponent },
+      { path: 'funding', component: FundingComponent }
     ])
   ],
   providers: [],

@@ -21,10 +21,10 @@
     <form #authForm="ngForm">
       <div class="link__details form-group">
        <div class="clap__move">
-         <input name="email" type="email" class="clap__input" placeholder="Email" required/>
+         <input name="email" type="email" class="clap__input" [(ngModel)]="auth.email" placeholder="Email" required/>
        </div>
        <div class="clap__control">
-         <input name="password" type="password" class="clap__input" placeholder="Password" required />
+         <input name="password" type="password" class="clap__input" [(ngModel)]="auth.password" placeholder="Password" required />
        </div>
       </div>
       <button class="btn frame-btn" (click)="onCreateUser(authForm)">Register</button>
